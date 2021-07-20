@@ -100,7 +100,7 @@ Entao utilizo sempre o varchar? Não. O charé ligeiramente mais performatico, p
 ter que gastar tempo variando de tamanho. Entao a regra é utilizar sempre o char quando
 sabemos que o numero de caracteres naquela coluna nao vai variar nunca. Por exemplo,
 unidade federativa, com dois digitos, sexo com um digito e assim por diante. Vista a diferença
-que podemos fazer com uma tipagem correta de tabelas, na próxima aula detalharemos os tipos do mysql
+que podemos fazer com uma tipagem correta de tabelas, no proximo exemplo detalharemos os tipos do mysql
 e nos modulos específicos de cada banco, você entenderá os tipos correspondentes no sql server
 e no oracle, que mudam muito pouco.
 
@@ -141,9 +141,9 @@ INSERT INTO CLIENTE(NOME,SEXO,ENDERECO,TELEFONE,CPF) VALUES('CLARA','F','SENADOR
 selecao projecao e juncao
 */
 
-SELECT NOW() as DATA_HORA, 'FELIPE MAFRA' AS PROFESSOR;
+SELECT NOW() as DATA_HORA, 'YURI CUNHA' AS PROFESSOR;
 
-SELECT 'FELIPE MAFRA';
+SELECT 'YURI CUNHA';
 
 SELECT 'BANCO DE DADOS';
 
@@ -1631,7 +1631,7 @@ DE DADOS.
 HOJE TEMOS MAIS DO QUE 3 FORMAS NORMAIS, MAS AO NORMALIZARMOS UM
 BANCO ATE A SUA TERCEIRA FORMA, É O SUFICIENTE PARA TER UM
 TRABALHO LIMPO E LIVRE DE ERROS. VEREMOS AS TRES FORMAS NORMAIS,
-UMA A UMA, DETALHADAMENTE NAS PROXIMAS AULAS.
+UMA A UMA, DETALHADAMENTE NOS PROXIMOS EXEMPLOS.
 */
 
 INSERT INTO CLIENTE VALUES('CARLA','F','C.LOPES@UOL.COM',45638854,'9301-7585',
@@ -3202,9 +3202,9 @@ BEGIN -> INICIO
 
 END -> FIM
 
-CREATE DATABASE AULA40;
+CREATE DATABASE EXEMPLO40;
 
-USE AULA40;
+USE EXEMPLO40;
 
 CREATE TABLE USUARIO(
 	IDUSUARIO INT PRIMARY KEY AUTO_INCREMENT,
